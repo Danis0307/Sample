@@ -10,6 +10,7 @@ public class MySorter
 			{
 				if (d[j] < 0|| d[j+1] < 0)
 					break;
+				
 				if (d[j] > d[j + 1])
 				{
 					swap(d, j, j + 1);
