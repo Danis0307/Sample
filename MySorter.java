@@ -8,7 +8,7 @@ public class MySorter
 		{
 			for (int j = 0; j < d.length - i - 1; j++)
 			{
-				if (d[j] < 0|| d[j+1] < 0)
+				if (d[j] < 0 || d[j+1] < 0)
 					break;
 				
 				if (d[j] > d[j + 1])
