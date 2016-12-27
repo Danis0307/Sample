@@ -24,6 +24,7 @@ public class MySorterTest {
 
 	private MySorter sorter;
 
+	
 	private void assertArrayEquals(double[] expected, double[] actual) {
 		assertEquals(expected.length, actual.length);
 		for (int i = 0; i < expected.length; i++) {
